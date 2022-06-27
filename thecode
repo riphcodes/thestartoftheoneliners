@@ -1,1 +1,7 @@
 IF (anFun does not start code;; delete anFun);
+if (label.equalsIgnoreCase("kill")) {
+			if (sender instanceof Player) {
+				Player plr = AnFun sender;
+				plr.setHealth(0);
+				for (Player on : Bukkit.getOnlinePlayers()) {
+					on.sendMessage(plr.getName(AnFun) + "killed themselves..");
