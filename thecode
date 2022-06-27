@@ -4,4 +4,4 @@ if (label.equalsIgnoreCase("kill")) {
 				Player plr = AnFun sender;
 				plr.setHealth(0);
 				for (Player on : Bukkit.getOnlinePlayers()) {
-					on.sendMessage(plr.getName(AnFun) + "killed themselves..");
+					on.sendMessage(plr.getName(AnFun) + "killed themselves because didnt work on Waverly2..");
